@@ -6,48 +6,4 @@
     android:layout_height="match_parent"
     tools:context=".SplashScreenActivity">
 
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline_medium_horizontal"
-        android:layout_width="wrap_content"
-        app:layout_constraintGuide_percent="0.5"
-        android:orientation="horizontal"
-        android:layout_height="wrap_content"/>
-
-    <ImageView
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:contentDescription="null"
-        android:src="@drawable/ic_cuponex_logo"
-        app:layout_constraintBottom_toTopOf="@+id/guideline_medium_horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="50sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline_medium_horizontal"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/version"
-        android:src="@drawable/ic_user_login"
-        android:textSize="12sp"
-        android:textStyle="italic"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
