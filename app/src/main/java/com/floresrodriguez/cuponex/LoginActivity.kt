@@ -27,11 +27,10 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.btnLogin.setOnClickListener {
-            val intent = Intent( this, MainActivity::class.java )
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
         }
-
     }
 
     private fun validateInputs(email: String, password: String): Boolean {
